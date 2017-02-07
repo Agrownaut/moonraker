@@ -1,5 +1,7 @@
 <h2>welcome to our village</h2>
-
+{% for location in locations %}
+{{location.place}}
+{% endfor %}
 
 <form action="signin" method="post">
   Name: <input type="text" name="name" id="name" value="" />
