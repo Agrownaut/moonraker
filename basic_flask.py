@@ -57,4 +57,4 @@ def signin():
     return render_template('signin.html', name=request.form['name'])
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0')
